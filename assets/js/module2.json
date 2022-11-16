@@ -1,0 +1,42 @@
+[
+    {
+      "question": "What is the structure of the Phrygian Mode?",
+      "choice1": "Minor scale with minor 2nd",
+      "choice2": "Minor scale with major 6th",
+      "choice3": "Major scale with minor 7th",
+      "choice4": "Major scale with a minor 3rd",
+      "answer": 1
+    },
+    {
+        "question": "What is the structure of the Dorian Mode?",
+        "choice1": "Minor scale with major 7th",
+        "choice2": "Major scale with minor 6th",
+        "choice3": "Major scale with minor 2nd",
+        "choice4": "Minor scale with major 6th",
+        "answer": 4
+    },
+    {
+        "question": "What is the structure of the Mixolidian Mode?",
+        "choice1": "Major scale with augmented 4th",
+        "choice2": "Major scale with minor 7th",
+        "choice3": "Major scale with minor 2nd",
+        "choice4": "Major scale with a minor 3rd",
+        "answer": 2
+    },
+    {
+        "question": "What is the structure of the locrian Mode?",
+        "choice1": "Minor scale with minor second and minor 5th",
+        "choice2": "Minor scale with major 6th",
+        "choice3": "Major scale with minor 7th",
+        "choice4": "Major scale with a minor 3rd",
+        "answer": 1
+    },
+    {
+        "question": "What is the structure of the Mixolidian Mode?",
+        "choice1": "Major scale",
+        "choice2": "Major scale with minor seventh",
+        "choice3": "Major scale with minor second",
+        "choice4": "Major scale with augmented fourth",
+        "answer": 4
+    }
+  ]
