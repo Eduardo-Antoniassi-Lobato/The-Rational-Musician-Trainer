@@ -1,11 +1,11 @@
 [
     {
-      "question": "Perfect 5th up from Eb?",
-      "choice1": "C",
-      "choice2": "Bb",
-      "choice3": "C",
-      "choice4": "D",
-      "answer": 2
+        "question": "Perfect 5th up from Eb?",
+        "choice1": "C",
+        "choice2": "Bb",
+        "choice3": "C",
+        "choice4": "D",
+        "answer": 2
     },
     {
         "question": "Minor 3rd down from A",
@@ -38,5 +38,29 @@
         "choice3": "F",
         "choice4": "C",
         "answer": 3
+    },
+    {
+        "question": "Minor 6th down from D?",
+        "choice1": "G#",
+        "choice2": "F#",
+        "choice3": "B",
+        "choice4": "C",
+        "answer": 2
+    },
+    {
+        "question": "Minor 7th down from E?",
+        "choice1": "Ab",
+        "choice2": "B",
+        "choice3": "E",
+        "choice4": "F#",
+        "answer": 4
+    },
+    {
+        "question": "Minor 7th up from E?",
+        "choice1": "B",
+        "choice2": "D",
+        "choice3": "C",
+        "choice4": "G#",
+        "answer": 2
     }
-  ]
+]
