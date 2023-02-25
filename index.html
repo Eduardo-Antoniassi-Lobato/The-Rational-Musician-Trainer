@@ -4,46 +4,58 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Quick Musician Trainer</title>
+  <title>The Rational Musician Trainer</title>
   <link rel="stylesheet" href="./assets/css/index.css">
 </head>
 
 <body>
   <div class="container">
     <div id="home" class="flex-center flex-column">
-      <h3>Welcome to Quick Musician Trainer -<br> Choose a Module to start training</h3>
-      <div id="module-btn-container">
-        <a class="button" id="tonalities" href="/quiz.html">Tonalities</a>
-        <a class="button" id="modes" href="/quiz.html">Modes</a>
-        <a class="button" id="degrees" ref="/quiz.html">Degrees of the scale</a>
-        <a class="button" id="intervals" ref="/quiz.html">Intervals</a>
+
+      <h2>The Rational Musician Trainer <i class="fa-solid fa-align-justify"></i></h2><br>
+
+      <div class="flex-column">
+        <h4>Choose a <span>Module</span>, a <span>Difficulty</span><br>and press <span>start</span> to begin your
+          training</h4>
       </div>
-    </div>
-    <div id="difficulty-container" class="flex-center flex-column">
-      <div class="slider-container">
-      <label id="easy" class="switch">
-        <input type="checkbox" checked>
-        <span class="slider round"></span>
-      </label>
-      <h4>Easy</h4>
-    </div>
-    <div class="slider-container">
-      <label class="switch">
-        <input type="checkbox">
-        <span class="slider round"></span>
-      </label>
-      <h4>Medium</h4>
-    </div>
-    <div class="slider-container">
-      <label id="easy" class="switch">
-        <input type="checkbox">
-        <span class="slider round"></span>
-      </label>
-      <h4>Hard</h4>
-    </div>
+
+      <form id="startPage">
+
+        <div class="module-container">
+
+          <div class="switch-field modules">
+            <input type="radio" id="ton" class="moduleBtn" name="module" value="tonalities" checked />
+            <label for="ton">Tonalities</label>
+            <input type="radio" id="mod" class="moduleBtn" name="module" value="modes" />
+            <label for="mod">Modes</label>
+            <input type="radio" id="deg" class="moduleBtn" name="module" value="degrees" />
+            <label for="deg">Degrees</label>
+          </div>
+
+          <div class="switch-field modules">
+            <input type="radio" id="int" class="moduleBtn" name="module" value="intervals" />
+            <label for="int">Intervals</label>
+          </div>
+          
+        </div>
+
+        <div class="switch-field difficulty">
+          <input type="radio" id="easy" class="difBtn" name="difficulty" value="Easy" checked />
+          <label for="easy">Easy</label>
+          <input type="radio" id="medium" class="difBtn" name="difficulty" value="Medium" />
+          <label for="medium">Medium</label>
+          <input type="radio" id="hard" class="difBtn" name="difficulty" value="Hard" />
+          <label for="hard">Hard</label>
+        </div>
+
+      </form>
+
+      <button type="button" id="startBtn" onclick="startQuiz()">Start</button>
+
     </div>
   </div>
   <!-- Inside this JavaScript file I've coded all Quiz Codes -->
+  <script src="https://kit.fontawesome.com/6b4c8c0212.js" crossorigin="anonymous"></script>
   <script src="./assets/js/script.js"></script>
 </body>
 
