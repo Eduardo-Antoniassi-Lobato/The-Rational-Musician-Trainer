@@ -1,0 +1,122 @@
+[
+    {
+        "question": "What is the 2nd degree of C Major scale ?",
+        "choice1": "F#",
+        "choice2": "G",
+        "choice3": "C",
+        "choice4": "D",
+        "answer": 4
+    },
+    {
+        "question": "What is the 5th degree of C Major scale ?",
+        "choice1": "A",
+        "choice2": "E",
+        "choice3": "G",
+        "choice4": "D",
+        "answer": 3
+    },
+    {
+        "question": "What is the 6th degree of C Major scale ?",
+        "choice1": "B",
+        "choice2": "A",
+        "choice3": "E",
+        "choice4": "F",
+        "answer": 2
+    },
+    {
+        "question": "What is the 2nd degree of D Minor scale ?",
+        "choice1": "G",
+        "choice2": "E",
+        "choice3": "C",
+        "choice4": "D",
+        "answer": 2
+    },
+    {
+        "question": "What is the 7th degree of D Minor Harmonic scale ?",
+        "choice1": "C#",
+        "choice2": "E",
+        "choice3": "F",
+        "choice4": "G",
+        "answer": 1
+    },
+    {
+        "question": "What is the 7th degree of D Minor Natural scale ?",
+        "choice1": "G",
+        "choice2": "E",
+        "choice3": "C",
+        "choice4": "D",
+        "answer": 3
+    },
+    {
+        "question": "What is the 6th degree of D Minor scale ?",
+        "choice1": "F",
+        "choice2": "G",
+        "choice3": "C",
+        "choice4": "Bb",
+        "answer": 4
+    },
+    {
+        "question": "What is the 2nd degree of E Major scale ?",
+        "choice1": "B",
+        "choice2": "E",
+        "choice3": "D",
+        "choice4": "F#",
+        "answer": 4
+    },
+    {
+        "question": "What is the 5th degree of E Major scale ?",
+        "choice1": "C",
+        "choice2": "E",
+        "choice3": "B",
+        "choice4": "G",
+        "answer": 3
+    },
+    {
+        "question": "What is the 5th degree of Eb Major scale ?",
+        "choice1": "D",
+        "choice2": "Bb",
+        "choice3": "C",
+        "choice4": "F",
+        "answer": 2
+    },
+    {
+        "question": "What is the 6th degree of Eb Minor scale ?",
+        "choice1": "Db",
+        "choice2": "Cb",
+        "choice3": "B",
+        "choice4": "Ab",
+        "answer": 2
+    },
+    {
+        "question": "What is the 3rd degree of F# Minor scale ?",
+        "choice1": "C#",
+        "choice2": "A",
+        "choice3": "B",
+        "choice4": "D#",
+        "answer": 2
+    },
+    {
+        "question": "What is the 6th degree of Ab Major scale ?",
+        "choice1": "C",
+        "choice2": "Db",
+        "choice3": "F",
+        "choice4": "Eb",
+        "answer": 3
+    },
+    {
+        "question": "What is the 7th degree of A Minor harmonic scale ?",
+        "choice1": "E",
+        "choice2": "B",
+        "choice3": "G#",
+        "choice4": "D",
+        "answer": 3
+    },
+    {
+        "question": "What is the 6th degree of B Minor Melodic scale ?",
+        "choice1": "G#",
+        "choice2": "B",
+        "choice3": "G",
+        "choice4": "C",
+        "answer": 1
+    }
+]
