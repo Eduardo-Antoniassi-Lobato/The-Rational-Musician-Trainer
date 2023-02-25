@@ -99,7 +99,7 @@ const incrementScore = (num) => {
 const startTimerLine = () => {
     const progressBarFull = document.getElementById('progressBarFull');
     const progressBar = document.querySelector('.time_line');
-    let audio = new Audio('./assets/sound/metronome.wav');
+    let audio = new Audio('./assets/sounds/metronome.wav');
 
     let getDif = localStorage.getItem('difficulty');
     if (getDif == 'Easy') {
