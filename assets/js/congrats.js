@@ -1,4 +1,5 @@
 const finalScore = document.getElementById('finalScore');
+const moduleAgain = document.getElementById('play-module-again');
 const lastScore = localStorage.getItem('lastScore');
 const getMod = localStorage.getItem('module');
 const getDif = localStorage.getItem('difficulty');
@@ -44,6 +45,13 @@ function getScores() {
 };
 
 getScores();
+
+function goBack(){
+
+    moduleAgain.innerHTML = <a class="btn" id="play-module-again" onclick="window.location.assign('/congrats.html')">Play Module Again</a>
+}
+
+goBack();
 
 function showResult() {
 

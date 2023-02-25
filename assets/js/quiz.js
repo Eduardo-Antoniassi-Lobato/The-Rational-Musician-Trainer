@@ -97,7 +97,7 @@ const incrementScore = (num) => {
 };
 
 const startTimerLine = () => {
-    const progressBarFull = document.getElementById('progressBarFull');
+    const progressBarFull = document.getElementById('progressBar');
     const progressBar = document.querySelector('.time_line');
     let audio = new Audio('./assets/sounds/metronome.wav');
 
@@ -109,8 +109,8 @@ const startTimerLine = () => {
     } else {
         difTime = 8
     }
-    let interval = difTime;
 
+    let interval = difTime;
 
     let countDown = setInterval(() => {
         interval--;
