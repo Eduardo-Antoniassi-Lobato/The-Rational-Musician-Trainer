@@ -46,12 +46,11 @@ function getScores() {
 
 getScores();
 
-function goBack(){
+function startQuiz() {
+    let module = localStorage.getItem('module');
 
-    moduleAgain.innerHTML = <a class="btn" id="play-module-again" onclick="window.location.assign('/congrats.html')">Play Module Again</a>
+    window.location.assign(`/quiz.html?q=${module}`);
 }
-
-goBack();
 
 function showResult() {
 
