@@ -203,6 +203,7 @@ form {
   .switch-field label {
     font-size: 1.6rem;
     padding: 10px 12px;
+
   }
 
   #startBtn {
@@ -214,6 +215,7 @@ form {
 @media screen and (max-width:470px) {
   h2 {
     font-size: 2.3rem;
+    margin-top: 10px;
   }
 
   h4 {
@@ -228,36 +230,27 @@ form {
     font-size: 1.6rem;
   }
 
-  .module-container {
+  .switch-field {
     display: flex;
     flex-direction: column;
-  }
-
-  .flex-column {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 1.5rem;
   }
 
   .switch-field label {
     font-size: 1.4rem;
-    padding: 11px 12px;
+    /* padding: 7px; */
     margin-top: 0rem;
-    margin-bottom: 1.2rem;
+    margin-bottom: 1rem;
   }
 
   #startBtn {
     font-size: 1.4rem;
     margin-top: 0rem;
+    margin-left: 1rem;
     padding: 12px 16px;
-
   }
 
   form {
-    display: flex;
-    flex-direction: column;
-    width: 90%;
-    padding: auto;
+    width: 100%;
   }
 
   .module-container {
