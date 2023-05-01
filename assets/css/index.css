@@ -61,11 +61,11 @@ i {
   align-items: center;
 }
 
-#difficulty-container {
+/* #difficulty-container {
   width: 45vw;
   display: flex;
   flex-direction: row;
-}
+} */
 
 .flex-column {
   display: flex;
@@ -115,9 +115,9 @@ i {
   box-shadow: none;
 }
 
-.module-container {
+/* .module-container {
   display: flex;
-}
+} */
 
 /* FORMS */
 
